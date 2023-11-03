@@ -1,0 +1,80 @@
+body {
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: #dcdcdc;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}
+
+#logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+}
+
+#fileUploadContainer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.fileUpload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3366cc;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#resultContainer {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.result-message {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.result-status {
+  font-size: 16px;
+  color: #666;
+}
+
+input[type="file"] {
+  display: block;
+  width: 300px; 
+  height: 50px;
+  margin: 10px auto;
+  font-size: 16px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: blue;
+}
+
